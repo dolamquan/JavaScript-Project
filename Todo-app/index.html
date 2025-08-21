@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg"></div>
+
+        <div class="container">
+            <div class="todo-app">
+                <h1>To-Do App</h1>
+
+
+                <div class="progress">
+                    <strong>Keep it up!</strong>
+                    <span id="count">0/0</span>
+                </div>
+
+                <div class="bar"><span id="bar-fill" style="width: 10%;"></span></div>
+
+                <form action="post" class="input-area" id="task-form">
+                    <input type="text" name="task" id="task-input" placeholder="Add a new task...">
+                    <button type="submit" id="submit-task">Submit</button>
+                </form>
+                
+                <ul id="task-list" class="task-list">
+                
+                </ul>
+
+            </div>
+        </div>
+   
+    <script src="script.js" defer></script>
+</body>
+</html>
